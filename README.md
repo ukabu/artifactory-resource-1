@@ -98,7 +98,7 @@ Download the artifacts of the given ref to the destination. It will return the s
 
 #### Parameters
 
-- `qualifiers`: *Optional.* The artifacts classifiers ex: [source,javadoc]. If specified, the resource will only retreive the qualified artifacts.
+- `qualifiers`: *Optional.* The artifacts classifiers ex: [source,javadoc]. If specified, the resource will retreive artifacts with no qualifier plus the qualified artifacts. By default, when no qualifiers are specified, only artifacts with no qualifiers and the version are retreived.
 
 ### `out`: Push the artifacts to the repository
 
